@@ -34,20 +34,28 @@ Under **Substrate Logistics**, physical space is a discrete, finite-capacity com
 ```
 
 ### Dual Energy-Density Ledgers ($`1\text{ J/m}^3 \equiv 1\text{ Pa}`$)
-1. **Micro-Scale Volumetric Saturation Ledger ($`\varepsilon_{\text{max}}`$):** Packing a single compiled proton ($`m_p`$) into a bare-metal spatial voxel ($`V_{\text{node}} = \bar{\lambda}_p^3 = 9.3019 \times 10^{-48}\text{ m}^3`$) establishes the hadronic saturation ceiling:
-   ```math
-   \varepsilon_{\text{max}} = \frac{m_p c^2}{\bar{\lambda}_p^3} = \mathbf{100.869\text{ GeV/fm}^3} \quad (\mathbf{1.6161 \times 10^{37}\text{ Pa}})
-   ```
-   ```math
-   \implies P_{\delta,\text{micro}} = \mathcal{C}_\delta \cdot \varepsilon_{\text{max}} = \mathbf{47.624\text{ MeV/fm}^3} \quad (\mathbf{7.6302 \times 10^{33}\text{ Pa}} \equiv B_{\text{QCD}})
-   ```
-2. **Macro-Scale Global Resting Cover Ledger ($`\Sigma_{0,\text{Ledger}}`$):** Unspooling a baseline $`2 m_p c^2`$ payload across the 5D state-space partition ($`\kappa^5 = 50^5`$) and squared Universal Attenuation Tensor ($`\mathcal{T}_\Omega^2 = 1.69382 \times 10^{38}`$) with the 36-channel volumetric drag tax ($`\Delta_{\text{tax}} = 1.7032\%`$) establishes the resting vacuum pressure floor:
-   ```math
-   \Sigma_{0,\text{Ledger}} = \frac{2 m_p c^2}{\bar{\lambda}_p^3 \, \mathcal{T}_\Omega^2 \, \kappa^5} (1 - \Delta_{\text{tax}}) = \mathbf{6.0022 \times 10^{-10}\text{ Pa}} \quad (\mathbf{600.22\text{ fPa}})
-   ```
-   ```math
-   \implies P_{\delta,\text{macro}} = \mathcal{C}_\delta \cdot \Sigma_{0,\text{Ledger}} = \mathbf{2.8339 \times 10^{-13}\text{ Pa}} \quad (\mathbf{0.2834\text{ pPa}} \equiv \mathbf{2.053 \times 10^4\text{ K cm}^{-3}})
-   ```
+**1. Micro-Scale Volumetric Saturation Ledger ($`\varepsilon_{\text{max}}`$):** Packing a single compiled proton ($`m_p`$) into a bare-metal spatial voxel ($`V_{\text{node}} = \bar{\lambda}_p^3 = 9.3019 \times 10^{-48}\text{ m}^3`$) establishes the hadronic saturation ceiling:
+
+```math
+\varepsilon_{\text{max}} = \frac{m_p c^2}{\bar{\lambda}_p^3} = \mathbf{100.869\text{ GeV/fm}^3} \quad (\mathbf{1.6161 \times 10^{37}\text{ Pa}})
+```
+
+
+```math
+\implies P_{\delta,\text{micro}} = \mathcal{C}_\delta \cdot \varepsilon_{\text{max}} = \mathbf{47.624\text{ MeV/fm}^3} \quad (\mathbf{7.6302 \times 10^{33}\text{ Pa}} \equiv B_{\text{QCD}})
+```
+
+**2. Macro-Scale Global Resting Cover Ledger ($`\Sigma_{0,\text{Ledger}}`$):** Unspooling a baseline $`2 m_p c^2`$ payload across the 5D state-space partition ($`\kappa^5 = 50^5`$) and squared Universal Attenuation Tensor ($`\mathcal{T}_\Omega^2 = 1.69382 \times 10^{38}`$) with the 36-channel volumetric drag tax ($`\Delta_{\text{tax}} = 1.7032\%`$) establishes the resting vacuum pressure floor:
+
+```math
+\Sigma_{0,\text{Ledger}} = \frac{2 m_p c^2}{\bar{\lambda}_p^3 \, \mathcal{T}_\Omega^2 \, \kappa^5} (1 - \Delta_{\text{tax}}) = \mathbf{6.0022 \times 10^{-10}\text{ Pa}} \quad (\mathbf{600.22\text{ fPa}})
+```
+
+
+```math
+\implies P_{\delta,\text{macro}} = \mathcal{C}_\delta \cdot \Sigma_{0,\text{Ledger}} = \mathbf{2.8339 \times 10^{-13}\text{ Pa}} \quad (\mathbf{0.2834\text{ pPa}} \equiv \mathbf{2.053 \times 10^4\text{ K cm}^{-3}})
+```
+
 
 ---
 
